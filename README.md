@@ -5,9 +5,9 @@ This is a prototype to bring MQTT-Data of the Teslalogger to HomeAssistant using
 
 The Prototype is based on following configuration:
 
-- MQTT-AddOn is installed an configured in HomeAssistant
-  - using username password as authentification mechanism
+- MQTT-AddOn is installed and configured in HomeAssistant
+  - using username password as authentification mechanism is possible
 - TeslaLoggers 1.55 installed and running
-  - MQTTClient.exe is configured via MQTTClient.exe.config to write MQTT to HomeAssistant MQTT-Broker
+- MQTTClient.exe is configured via MQTTClient.exe.config to write MQTT to HomeAssistant MQTT-Broker
   - the value of the MQTT-Setting for **Topic** is the car's name
 - 
