@@ -1,0 +1,65 @@
+charging, bool
+driving, bool
+online, bool
+sleeping, bool
+falling_asleep, bool
+speed, number, km/h
+power, number, kW
+odometer, number, km
+ideal_battery_range_km, number, km 
+battery_range_km number, km
+outside_temp, number, °C
+battery_level, battery, %
+
+charger_voltage, 
+charger_phases
+charger_actual_current
+charge_energy_added
+charger_power
+charge_rate_km
+charge_port_door_open
+time_to_full_charge
+fast_charger_present
+
+trip_start
+trip_start_dt
+trip_max_speed
+trip_max_power
+trip_duration_sec
+trip_kwh
+trip_avg_kwh
+trip_distance
+
+ts
+latitude
+longitude
+charge_limit_soc
+inside_temperature
+battery_heater
+is_preconditioning
+sentry_mode
+display_name
+heading
+
+active_route_destination
+active_route_energy_at_arrival
+active_route_minutes_to_arrival
+active_route_traffic_minutes_delay
+active_route_latitude
+active_route_longitude
+
+open_windows
+open_doors
+frunk
+trunk
+locked
+TLGeofencea
+TLGeofenceIsHome
+TLGeofenceIsCharger
+TLGeofenceIsWork
+
+car_version
+country_code
+state
+
+software_update_version
